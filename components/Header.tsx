@@ -23,7 +23,7 @@ export function Header({ scrolled }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
         <motion.a 
           href="/" 
-          className="font-heading text-xl md:text-2xl tracking-tight"
+          className="font-heading text-xl md:text-2xl tracking-tight text-black"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
