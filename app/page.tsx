@@ -53,7 +53,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="z-10">
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 md:mb-6 leading-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 md:mb-6 leading-tight text-black">
                   Design That Launches{" "}
                   <span className="bg-gradient-to-r from-[#FF6E48] via-[#8054FF] to-[#FF4B9E] bg-clip-text text-transparent">Startups</span>.
                 </h1>
