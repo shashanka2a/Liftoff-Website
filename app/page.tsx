@@ -60,7 +60,7 @@ export default function Home() {
               </motion.div>
 
               <motion.p
-                className="text-lg md:text-xl text-gray-700 mb-6 md:mb-8"
+                className="text-lg md:text-xl text-black mb-6 md:mb-8"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15, duration: 0.6 }}
@@ -105,7 +105,7 @@ export default function Home() {
             ].map((stat, index) => (
               <motion.div key={stat.label} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 + index * 0.1, duration: 0.5 }} className="text-center">
                 <div className="text-3xl md:text-4xl mb-2 bg-gradient-to-r from-[#FF6E48] to-[#8054FF] bg-clip-text text-transparent">{stat.value}</div>
-                <p className="text-sm md:text-base text-gray-600">{stat.label}</p>
+                <p className="text-sm md:text-base text-black">{stat.label}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -124,7 +124,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto"
+            className="text-lg md:text-xl text-black max-w-3xl mx-auto"
           >
             Explore a <span className="accent-text">curated reel</span> of our projects - from sleek SaaS dashboards to Web3 ecosystems - all designed to inspire, engage, and convert.
           </motion.p>
@@ -148,7 +148,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1, duration: 0.5 }}
-              className="text-lg md:text-xl text-gray-700"
+              className="text-lg md:text-xl text-black"
             >
               Strategic design for startups that move fast.
             </motion.p>
@@ -181,7 +181,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1, duration: 0.5 }}
-              className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto"
+              className="text-lg md:text-xl text-black leading-relaxed max-w-3xl mx-auto"
             >
               Our process blends strategy, creativity, and execution - helping startups go from <span className="accent-text">idea to launch</span> without friction.
             </motion.p>
@@ -207,7 +207,7 @@ export default function Home() {
               Selected <span className="bg-gradient-to-r from-[#FF6E48] to-[#8054FF] bg-clip-text text-transparent">Work</span>
             </motion.h2>
 
-            <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1, duration: 0.5 }} className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+            <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1, duration: 0.5 }} className="text-lg md:text-xl text-black max-w-3xl mx-auto">
               A glimpse into our recent launches - each crafted with <span className="accent-text">purpose, precision, and passion</span>.
             </motion.p>
           </div>
