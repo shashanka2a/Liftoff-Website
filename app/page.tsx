@@ -115,7 +115,7 @@ export default function Home() {
       {/* Showreel Section */}
       <section className="py-16 md:py-24 px-4 md:px-6 bg-[#FAF9F7]">
         <div className="max-w-7xl mx-auto text-center mb-12 md:mb-16">
-          <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl mb-4 md:mb-6">
+          <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl mb-4 md:mb-6 text-black">
             Our Work in <span className="bg-gradient-to-r from-[#FF6E48] to-[#8054FF] bg-clip-text text-transparent">Motion</span>
           </motion.h2>
 
@@ -139,7 +139,7 @@ export default function Home() {
       <section id="services" className="py-16 md:py-24 px-4 md:px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl mb-4">
+            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl mb-4 text-black">
               What We <span className="bg-gradient-to-r from-[#FF6E48] to-[#8054FF] bg-clip-text text-transparent">Do</span>
             </motion.h2>
 
@@ -203,11 +203,11 @@ export default function Home() {
       <section id="work" className="py-16 md:py-24 px-4 md:px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl mb-4">
+            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl mb-4 text-black">
               Selected <span className="bg-gradient-to-r from-[#FF6E48] to-[#8054FF] bg-clip-text text-transparent">Work</span>
             </motion.h2>
 
-            <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1, duration: 0.5 }} className="text-lg md:text-xl text-black max-w-3xl mx-auto">
+            <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1, duration: 0.5 }} className="text-lg md:text-xl text-black max-w-3xl mx-auto whitespace-nowrap truncate">
               A glimpse into our recent launches - each crafted with <span className="accent-text">purpose, precision, and passion</span>.
             </motion.p>
           </div>
