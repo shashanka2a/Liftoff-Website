@@ -171,7 +171,7 @@ export default function Home() {
 
         <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-16 md:mb-24">
-            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 md:mb-8 leading-tight">
+            <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 md:mb-8 leading-tight text-black">
               We Launch Fast. We Design for{" "}
               <span className="bg-gradient-to-r from-[#FF6E48] to-[#8054FF] bg-clip-text text-transparent">Impact</span>.
             </motion.h2>
